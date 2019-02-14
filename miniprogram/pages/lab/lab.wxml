@@ -1,0 +1,13 @@
+<!--pages/lab/lab.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view style=" border-bottom:1px solid #eee;">
+  <view style="text-align:center; font-weight:bold;margin-top:20px;">关于作者</view>
+  <view style="text-align:center;color: #333;margin-top:10px;margin-bottom:10px;">auther:jinqianli, email:larack@126.com</view>
+</view>
+<view class='img'>
+  <image style="text-align:center; font-weight:bold;margin-left:20px;margin-top:10px;" src="../../image/jinqianli_en.png" mode="widthFix">
+  </image>
+</view>
+<view class='img'>
+  <image style="text-align:center; font-weight:bold;margin-left:20px;margin-top:10px;" src="../../image/jinqianli_ch.png" mode='widthFix'></image>
+</view>

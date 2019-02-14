@@ -2,14 +2,14 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"appid": "wx621fae0f2fe23bfc",
-	"projectname": "jinqianli",
+	"projectname": "jinqianli-blog",
 	"libVersion": "2.2.5",
 	"condition": {
 		"search": {

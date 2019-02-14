@@ -1,47 +1,29 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/singer/singer",
-    "pages/singer-detail/singer-detail",
-    "pages/player/player",
-    "pages/my/my",
-    "pages/search/search",
-    "pages/top-list/top-list"
+    "pages/lab/lab"
   ],
   "window":{
-    "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#222",
-    "navigationBarTitleText": "乐听Music",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WxParse",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "color": "#919191",
-    "selectedColor": "#ffcd32",
-    "backgroundColor": "#333",
-    "position": "bottom",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "推荐",
-        "iconPath": "static/image/home-1.png",
-        "selectedIconPath": "static/image/home-2.png"
-      },{
-        "pagePath": "pages/player/player",
-        "text": "正在播放",
-        "iconPath": "static/image/rank-1.png",
-        "selectedIconPath": "static/image/rank-2.png"
-      },{
-        "pagePath": "pages/singer/singer",
-        "text": "音乐厅",
-        "iconPath": "static/image/singer-1.png",
-        "selectedIconPath": "static/image/singer-2.png"
-      },{
-        "pagePath": "pages/my/my",
-        "text": "我",
-        "iconPath": "static/image/my.png",
-        "selectedIconPath": "static/image/my-1.png"
-      }
-    ]
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png",
+      "text": "formylove"
+    }, {
+      "pagePath": "pages/lab/lab",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png",
+      "text": "aboutme"
+    }]
   }
 }

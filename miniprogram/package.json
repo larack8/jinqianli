@@ -1,0 +1,21 @@
+{
+  "name": "jinqianli",
+  "version": "0.3.0",
+  "description": "jinqianli的官方小程序",
+  "homepage": "https://www.cnblogs.com/larack/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:larack8/jinqianli.git"
+  },
+  "main": "wxParse/wxParse.js",
+  "scripts": {},
+  "keywords": [
+    "html",
+    "markdown",
+    "weapp",
+    "weixin",
+    "jinqianli"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
